@@ -68,16 +68,15 @@ main{
 }
 
 .icart {
-    width: 500px;
-    margin: 100px;
-    background: white;
-    padding:280px;
-    border: .5px solid #e8e8e8;
-    height: 150px;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 150px;
-    
+  width: 500px;
+  margin: 100px;
+  background: white;
+  padding:280px;
+  border: .5px solid #e8e8e8;
+  height: 150px;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 150px;
 }
 
 table {
@@ -86,13 +85,15 @@ table {
     margin-top: 15px;
     margin-right: 90px;
 }
+th {
 
+  color: green;
+}
 th, td {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid #eee;
     width: 10px;
-   
    
 }
 
