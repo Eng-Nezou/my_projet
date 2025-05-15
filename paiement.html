@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="paiement.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><h2>Creative Market</h2></div>
+
+    <div class="search">
+        <input type="search" placeholder="Search creative market">
+        <select name="selectSearch" id="mySelect">
+        <option value="makeup">Make up</option>
+        <option value="perfume">Perfumes</option>
+        <option value="sport">Sports</option>
+        </select>
+        <div class="searchIcon">
+        <i class='bx bx-search'></i>
+        </div>
+    </div>
+
+    <div class="cart">
+        <a href="#"><i class='bx bx-cart' ></i> Cart</a>
+    </div>
+    </header>
+  <div class="container">
+    <!-- Left Section -->
+    <div class="checkout-form">
+      <a href="#" class="back-link">← Back to Cart</a>
+      <h2>Checkout</h2>
+      <p>Check your item and select your shipping for better experience order item.</p>
+
+      <div class="shipping-options">
+  <label class="shipping-btn active">
+    <input type="radio" name="shipping" value="delivery" checked >
+    <span class="icon">🚚</span> Delivery
+  </label>
+
+  <label class="shipping-btn">
+    <input type="radio" name="shipping" value="pickup" checked>
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M4 7h16M4 7v10a2 2 0 002 2h12a2 2 0 002-2V7M4 7l1.5-4.5A1 1 0 016.4 2h11.2a1 1 0 01.9.5L20 7" />
+    </svg>
+    Pick up
+  </label>
+</div>
+
+    <form>
+
+        Full name
+
+        <input type="text" placeholder="Enter full name" required>
+        
+        Email Address
+
+        <input type="email" placeholder="Enter email address" required>
+
+        Phone
+
+        <input type="tel" placeholder="000-000" required>
+
+        Country
+
+        <select required>
+          <option value="">United States</option>
+          <option value="">Mauritanien</option>
+        </select>
+
+        <div class="address-row">
+          <input type="text" placeholder="Enter city" required>
+          <input type="text" placeholder="Enter state" required>
+          <input type="text" placeholder="Enter code" required>
+        </div>
+        <div >
+        <label class="terms">
+          <input type="checkbox" required>
+          I have read and agree to the Terms and Conditions
+        </label>
+        </div>
+     </form>
+    </div>
+
+    <!-- Right Section -->
+    <div class="cart-review">
+      <h3>Review your cart</h3>
+
+      <div class="item">
+        <img src="https://via.placeholder.com/60" alt="Product">
+        <div>
+          <p>Secret Treasures Female Secret Treasures Robe For Women</p>
+          <span>$39.99</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://via.placeholder.com/60" alt="Product">
+        <div>
+          <p>Secret Treasures Female Secret Treasures Robe For Women</p>
+          <span>$39.99</span>
+        </div>
+      </div>
+
+      <div class="summary">
+        <p>Subtotal <span>$45.00</span></p>
+        <p>Shipping <span>$5.00</span></p>
+        <p>Neck Discount <span>- $10.00</span></p>
+        <hr>
+        <p class="total">Total <span>$40.00</span></p>
+        <button class="order-btn">Order now</button>
+        <div class="secure">
+         <p>Secure Checkout·SSL Encrypted</p>
+         <p>Ensuring your financial and personal details are secure during every transaction</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="section">
+        <h1>Creative Market</h1>
+        <div class="liens">
+          <i class='bx bxl-instagram-alt' ></i>
+          <i class='bx bxl-youtube' ></i>
+          <i class='bx bxl-linkedin-square' ></i>
+        </div>
+        <p>
+          Creative Market for everyone order 
+          regular and become a prime customer.
+        </p>
+      </div>
+      <div class="section">
+        <h4>Links</h4>
+        <p><a href="">Home</a></p>
+        <p><a href="">Search</a></p>
+        <p><a href="">Profile</a></p>
+        <p><a href="">My Orders</a></p>
+      </div>
+      <div class="section">
+        <h4>Help</h4>
+        <p><a href="">How it works</a></p>
+      </div>
+      <div class="section">
+        <h2>Newlestter</h2>
+        <form class="input">
+          <input type="email" placeholder="Enter your Email Adress">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="secondContainer">
+      <p>2025 Creative Market All rights reverved</p>
+    </div>
+  </footer>
+</body>
+</html>
